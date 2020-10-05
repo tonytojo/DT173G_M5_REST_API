@@ -47,9 +47,6 @@ I have also configure the htaccess so I can skip the extension php when I specif
 
 En installation av remote repository går till på följande sätt.
 
-1. git clone https://github.com/tonytojo/DT173G_module2.git DT173G_m2
-2. cd DT173G_m2
-3. npm install(Här skapas node_modules)
-Notera: Jag kallar target folder för DT173G_m2 men du kan kalla det för vad du vill. Det är alltid bra att ha ett namn som förknippas med innebörden av repositoryt.
-Du kan också förkorta skrivsättet genom att skriva "npm i" vilket är samma sak som 
-"npm install"
+1. git clone https://github.com/tonytojo/DT173G_M5_SRV_REST_API.git  DT173G_M5_SRV
+2. cd DT173G_M5_SRV
+
