@@ -34,9 +34,9 @@ header('Content-Type: application/json');
 //Define that all domain are valid
 header('Access-Control-Allow-Origin: *');
 //Define valid methods
-header('Access-Control-Allow-Methods:GET, PUT, POST, DELETE');
+header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE');
 //Define valid headers
-header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Access-Control-Allow-Methods, Authorization, X-Requested-with');
+header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Access-Control-Allow-Methods, Authorization, x-Requested-With');
 
 //Check if id exist in url
 if (isset($_GET['id']))
